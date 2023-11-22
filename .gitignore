@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+
+# Build files
+dist/*
+build/
+
+# Logs
+logs
+*.log
+
+# Dependency directory
+lib/
+dist/gitHubApi.js
+dist/gitHubApi.js
+dist/*
