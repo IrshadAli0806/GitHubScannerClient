@@ -1,0 +1,1 @@
+export const GIT_HUB_TOKEN = '<Your git hub token>';

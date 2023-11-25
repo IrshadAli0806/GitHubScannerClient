@@ -1,11 +1,12 @@
 import React,{useEffect,useState} from 'react';
 import RepoDetails from './RepoDetails';
+import { GIT_HUB_TOKEN } from "../config"
 function AllRepos() {
 
     const[allRepoData,setAllRepo] = useState([])
     const [repoUrl,setRepoUrl]=useState();
     const header = {
-        'githubtoken': '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',
+        'githubtoken': GIT_HUB_TOKEN,
         
         // Add any other headers as needed
       }

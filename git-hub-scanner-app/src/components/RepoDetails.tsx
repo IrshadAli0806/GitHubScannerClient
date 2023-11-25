@@ -1,4 +1,5 @@
 import React,{useEffect,useState} from 'react';
+import { GIT_HUB_TOKEN } from "../config"
 function RepoDetails(props:any) {
 
 
@@ -6,7 +7,7 @@ function RepoDetails(props:any) {
     const[repoData,setRepoData] = useState([])
 
     const header = {
-        'githubtoken': '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',
+        'githubtoken': GIT_HUB_TOKEN,
         
         // Add any other headers as needed
       }
